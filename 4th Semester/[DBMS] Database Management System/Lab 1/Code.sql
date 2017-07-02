@@ -5,7 +5,7 @@ CREATE TABLE tbl_student
 (
 	sid int,
 	sname varchar(50),
-	roll int,
+	sroll int,
 	class int,
 	dob date,
 	math foat,
