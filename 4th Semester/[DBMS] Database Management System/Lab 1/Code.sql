@@ -8,7 +8,7 @@ CREATE TABLE tbl_student
 	sroll int,
 	class int,
 	dob date,
-	math foat,
+	math float,
 	science float,
 	english float
 )
