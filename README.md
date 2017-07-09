@@ -1,5 +1,5 @@
-# Kathford
-Everything I've done while studying at Kathford (4th semester and onwards)
+# Kathford Lab Work
+Contains codes from the lab of each subject (4th semester and onwards only).
 
-Includes lab codes and projects.
-For reports of the lab work, go [here](https://bit.ly/Kathford).
+Includes lab codes and projects codes and their details.
+For reports of the lab work and the projects, refer to this [link](https://bit.ly/Kathford).
