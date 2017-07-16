@@ -40,8 +40,9 @@ ALTER TABLE Student ALTER COLUMN english float
 UPDATE Student SET math = 69.89, science = 59.07, english = 90.5 WHERE id = 1
 SELECT * FROM Student
 
+DROP TABLE Student
 
 USE master
-DROP DATABASE db_std 
+DROP DATABASE db_std
 
 SELECT * FROM Student
