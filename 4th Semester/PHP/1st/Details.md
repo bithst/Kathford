@@ -3,10 +3,10 @@ __Required softwares__
 1. Xampp
 2. PhpStorm
 
-Note:  
-Encoding - UTF-8
+_Note:_  
+_Encoding - UTF-8_
 
-Syntax:
+__Example syntax__
 - echo 'text';
 - settype(var, 'type');
 - $var;
