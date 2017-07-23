@@ -27,7 +27,7 @@ $variable = [
         <th>Address</th>
         <th>Phone Number</th>
     </tr>
-    <?php foreach($variable as $key=>$value) {?>
+    <?php foreach($variable as $value) {?>
         <tr>
             <td><?= $value['name']?></td>
             <td><?= $value['address']?></td>
