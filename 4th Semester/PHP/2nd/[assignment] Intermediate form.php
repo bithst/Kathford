@@ -118,7 +118,7 @@ function test_input($data) {
 </head>
 <body>
 <h1>
-    Form
+    Form with PHP
 </h1>
 <i>Fields with * are <b>required</b>.</i><br><br>
 
