@@ -1,36 +1,36 @@
 <?php
-    //Variables to show error message on the page if any error occur.
-    $err_name = $err_age = $err_gender = $err_country = $err_url = "";
-    $err_qualificationYear = $err_username = $err_email = "";
-    $err_password = $err_rePassword = $err_vehicle = "";
+//Variables to show error message on the page if any error occur.
+$err_name = $err_age = $err_gender = $err_country = $err_url = "";
+$err_qualificationYear = $err_username = $err_email = "";
+$err_password = $err_rePassword = $err_vehicle = "";
 
-    //Variables to store data coming from the html page.
-    $fName = $mName = $lName = $age = $gender = $country = $vehicle = $social = "";
-    $courseName = $qualification = $qualificationDate = $email = $username = $password = $rePassword = "";
+//Variables to store data coming from the html page.
+$fName = $mName = $lName = $age = $gender = $country = $vehicle = $social = "";
+$courseName = $qualification = $qualificationDate = $email = $username = $password = $rePassword = "";
 
-    //Constants for error messages.
-    define("req", "Required field!!!");
-    define("inv", "invalid Value!");
+//Constants for error messages.
+define("req", "Required field!!!");
+define("inv", "Invalid Value!");
 
-    //Constants for multiple choice and/or lists in the form
-    define("_gender", array(
-        ["value"=>"male", "text"=>"Male"],
-        ["value"=>"female", "text"=>"Female"],
-        ["value"=>"other", "text"=>"Other"]
-    ));
-    define("_country", array(
-        ["value"=>"NP", "text"=>"Nepal"],
-        ["value"=>"IN", "text"=>"India"],
-        ["value"=>"CN", "text"=>"China"],
-        ["value"=>"DE", "text"=>"Germany"],
-        ["value"=>"US", "text"=>"United States of America"],
-        ["value"=>"JP", "text"=>"Japan"],
-    )); //Uses ISO2 country codes for the value field
-    define("_vehicle", array(
-        ["value"=>"cycle", "text"=>"Cycle"],
-        ["value"=>"motor-bike", "text"=>"Bike"],
-        ["value"=>"car", "text"=>"Car"]
-    ));
+//Constants for multiple choice and/or lists in the form
+define("_gender", array(
+    ["value"=>"male", "text"=>"Male"],
+    ["value"=>"female", "text"=>"Female"],
+    ["value"=>"other", "text"=>"Other"]
+));
+define("_country", array(
+    ["value"=>"NP", "text"=>"Nepal"],
+    ["value"=>"IN", "text"=>"India"],
+    ["value"=>"CN", "text"=>"China"],
+    ["value"=>"DE", "text"=>"Germany"],
+    ["value"=>"US", "text"=>"United States of America"],
+    ["value"=>"JP", "text"=>"Japan"],
+)); //Uses ISO2 country codes for the value field
+define("_vehicle", array(
+    ["value"=>"cycle", "text"=>"Cycle"],
+    ["value"=>"motor-bike", "text"=>"Bike"],
+    ["value"=>"car", "text"=>"Car"]
+));
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if(empty($_POST["firstName"]) || empty($_POST["lastName"])) {
@@ -98,8 +98,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $qualificationDate = test_input($_POST["qualificationDate"]);
     $email = test_input($_POST["email"]);
     $username = test_input($_POST["userName"]);
-    $password = test_input($_POST["newPassword"]);
-    $rePassword = test_input($_POST["retypedPassword"]);
+    $password = md5(test_input($_POST["newPassword"]));
+    $rePassword = md5(test_input($_POST["retypedPassword"]));
 }
 
 function test_input($data) {
@@ -142,19 +142,19 @@ function test_input($data) {
         * <?= $err_gender?>
         <br>
         <?php
-            foreach(_gender as $key=>$value) {
-                echo "<input type=\"radio\" name=\"gender\" value=\"".$value["value"]."\"".($key == 0 ? "checked" : "").">".$value["text"]."<br>";
-                $key++;
-            }
+        foreach(_gender as $key=>$value) {
+            echo "<input type=\"radio\" name=\"gender\" value=\"".$value["value"]."\"".($key == 0 ? "checked" : "").">".$value["text"]."<br>";
+            $key++;
+        }
         ?>
 
         <br>Country<br>
         <select name="country">
-        <?php
+            <?php
             foreach(_country as $value) {
                 echo "<option value=\"".$value["value"]."\">".$value["text"]."</option>";
             }
-        ?>
+            ?>
         </select>
         * <?= $err_country?>
         <br>
@@ -163,9 +163,9 @@ function test_input($data) {
         <?= " ".$err_vehicle?>
         <br>
         <?php
-            foreach(_vehicle as $value) {
-                echo "<input type=\"checkbox\" name=\"vehicle[]\" value=\"".$value["value"]."\">".$value["text"]."<br>";
-            }
+        foreach(_vehicle as $value) {
+            echo "<input type=\"checkbox\" name=\"vehicle[]\" value=\"".$value["value"]."\">".$value["text"]."<br>";
+        }
         ?>
 
         <br>Social media<br>
@@ -240,7 +240,7 @@ function test_input($data) {
     </tr>
 
     <tr>
-        <td><?= $fName." ".$mName." ",$lName?></td>
+        <td><?= $fName." ".$mName." ".$lName?></td>
         <td><?= $age?></td>
         <td><?= $gender?></td>
         <td><?= $country?></td>
