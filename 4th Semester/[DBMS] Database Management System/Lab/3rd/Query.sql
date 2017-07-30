@@ -40,12 +40,12 @@ SELECT * FROM Employee
 DELETE FROM Employee WHERE salary < 20000
 SELECT * FROM Employee
 
-SELECT * FROM Employee WHERE empname LIKE 'R%'
+SELECT empname FROM Employee WHERE empname LIKE 'R%'
 
-SELECT * FROM Employee WHERE empname LIKE 'R%' OR empname LIKE 'A%'
+SELECT empname FROM Employee WHERE empname LIKE 'R%' OR empname LIKE 'A%'
 
-SELECT * FROM Employee WHERE empname LIKE 'R__'
+SELECT empname FROM Employee WHERE empname LIKE 'R__'
 
-SELECT * FROM Employee WHERE empname LIKE '_a%'
+SELECT empname FROM Employee WHERE empname LIKE '_a%'
 
-SELECT * FROM Employee WHERE empname LIKE '_[^a]%'
+SELECT empname FROM Employee WHERE empname LIKE '_[^a]%'
