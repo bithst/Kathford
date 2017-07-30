@@ -1,4 +1,4 @@
-# Facts and Rules in PROLOG
+# Facts and Rules in PROLOG 
 ## Consider a knowledge base
 happy(ram).
 listen2music(hari).
