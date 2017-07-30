@@ -1,0 +1,10 @@
+fat(nam):-
+	eats(nam),
+	happy(nam).
+eats(nam):-
+	food;
+	money(nam).
+food.
+money(nam):-
+	money(parents).
+eats(bishal).
