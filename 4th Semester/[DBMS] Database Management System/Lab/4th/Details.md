@@ -29,4 +29,4 @@ Write SQL for following:
 3. Display name in table1 which are not in table2.
 4. Display name in table2 which are not in table1.
 5. Display the total no. of records in table1.
-6. Display all record which are commo in both table.
+6. Display all record which are common in both table.

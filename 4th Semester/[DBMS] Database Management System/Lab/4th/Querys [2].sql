@@ -33,4 +33,8 @@ SELECT name FROM table1 UNION SELECT name FROM table2
 
 SELECT name FROM table1 EXCEPT SELECT name FROM table2
 
+SELECT name FROM table2 EXCEPT SELECT name FROM table1
+
 SELECT COUNT(*) AS total_data FROM table1
+
+SELECT * FROM table1 INTERSECT SELECT * FROM table2

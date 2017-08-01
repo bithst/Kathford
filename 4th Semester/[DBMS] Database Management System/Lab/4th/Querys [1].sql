@@ -31,7 +31,7 @@ SELECT AVG(salary) AS average_salary FROM Employee
 SELECT SUM(salary) AS total_salary FROM Employee
 
 SELECT COUNT(*) AS total_employees FROM Employee
-SELECT COUNT(DISTINCT empname) AS total_distinct_empname FROM Employee
+SELECT COUNT(DISTINCT ename) AS total_distinct_empname FROM Employee
 
 SELECT address, MIN(salary) AS minimum_salary FROM Employee GROUP BY address
 
