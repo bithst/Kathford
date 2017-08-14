@@ -41,11 +41,9 @@
                     <input type="radio" name="gender" value="O">&emsp;Other&emsp;
                 </div>
                 <div class="form-group">
-                    <label for="language">Language</label>
-
-                </div>
-                <div class="form-group">
-
+                    <label for="language">Language</label><br>
+                    <input type="checkbox" name="language[]" value="nep">&emsp;Nepali&emsp;<br>
+                    <input type="checkbox" name="language[]" value="eng">&emsp;English&emsp;<br>
                 </div>
             </div>
             <div class="col-md-6">Show</div>
