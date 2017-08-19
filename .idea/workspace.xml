@@ -2,29 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a62568a7-b3ba-455e-ba86-290684288078" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/bootstrap/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/db_connect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/4th Semester/PHP/index.htm" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/action.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/db_connect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/6th/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/Project/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4th Semester/PHP/Project/stylesheet/grid.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4th Semester/PHP/5th/index.php" afterPath="$PROJECT_DIR$/4th Semester/PHP/5th/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,47 +50,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/index.php">
+        <entry file="file://$PROJECT_DIR$/4th Semester/PHP/Project/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2288">
-              <caret line="104" column="52" lean-forward="false" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
+            <state relative-caret-position="286">
+              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding>
-                <marker date="1501753525770" expanded="true" signature="2949:2974" ph="SELECT * FRO... tbl_student" />
+                <element signature="n#style#0;n#pre#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/delete.php">
+      <file leaf-file-name="grid.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4th Semester/PHP/Project/stylesheet/grid.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-              <folding>
-                <marker date="1501753890236" expanded="true" signature="177:213" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/action.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-              <folding>
-                <marker date="1501753890247" expanded="true" signature="341:414" ph="INSERT INTO tbl_student... " />
-                <marker date="1501753890247" expanded="true" signature="341:425" ph="INSERT INTO tbl_student... " />
-                <marker date="1501753890247" expanded="true" signature="341:427" ph="INSERT INTO tbl_student... " />
-                <marker date="1501753890247" expanded="true" signature="341:439" ph="INSERT INTO tbl_student... " />
-                <marker date="1501753890247" expanded="true" signature="341:441" ph="INSERT INTO tbl_student... " />
-                <marker date="1501753890247" expanded="true" signature="341:456" ph="INSERT INTO tbl_student... " />
-                <marker date="1501753890247" expanded="true" signature="341:458" ph="INSERT INTO tbl_student... " />
-                <marker date="1501753890247" expanded="true" signature="341:471" ph="INSERT INTO tbl_student... " />
-                <marker date="1501753890247" expanded="true" signature="341:473" ph="INSERT INTO tbl_student... " />
-                <marker date="1501753890247" expanded="true" signature="341:488" ph="INSERT INTO tbl_student... " />
-                <marker date="1501753890247" expanded="true" signature="341:534" ph="INSERT INTO tbl_student... " />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,6 +77,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -149,6 +126,10 @@
         <option value="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/index.php" />
         <option value="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/delete.php" />
         <option value="$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/action.php" />
+        <option value="$PROJECT_DIR$/4th Semester/PHP/6th/index.php" />
+        <option value="$PROJECT_DIR$/4th Semester/PHP/Project/stylesheet/ui.css" />
+        <option value="$PROJECT_DIR$/4th Semester/PHP/Project/index.php" />
+        <option value="$PROJECT_DIR$/4th Semester/PHP/Project/stylesheet/grid.css" />
       </list>
     </option>
   </component>
@@ -194,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,13 +205,28 @@
               <item name="Kathford" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="4th Semester" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="5th" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Assignment" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="6th" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Kathford" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kathford" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="4th Semester" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Project" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Kathford" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kathford" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="4th Semester" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stylesheet" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -242,14 +237,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="last_opened_file_path" value="C:/PHP/php.exe" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dell\GitHub\Kathford\4th Semester\PHP\2nd\Assignment" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\GitHub\Kathford\4th Semester\PHP\6th" />
       <recent name="C:\Users\dell\GitHub\Kathford\4th Semester\PHP\5th\Assignment" />
       <recent name="C:\Users\dell\GitHub\Kathford\4th Semester\PHP\5th" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\GitHub\Kathford\4th Semester\PHP\2nd\Assignment" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,11 +307,15 @@
       <workItem from="1501694626831" duration="10942000" />
       <workItem from="1501746263218" duration="4631000" />
       <workItem from="1502087020325" duration="19000" />
+      <workItem from="1502893344726" duration="619000" />
+      <workItem from="1502947038936" duration="4977000" />
+      <workItem from="1502975613923" duration="1785000" />
+      <workItem from="1502979196165" duration="2274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79403000" />
+    <option name="totallyTimeSpent" value="89058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,7 +331,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19124544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -353,15 +354,15 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18342887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19124544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -381,55 +382,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/2nd/Associative Array.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/2nd/Assignment/[assignment] Intermediate form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/1st/[Assignment] Basic form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Ashish.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/2nd/Assignment/[assignment] Intermediate form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="48" lean-forward="false" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/1st/[Assignment] Basic form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/2nd/Assignment/[assignment] Intermediate form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/Ashish.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -653,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,13 +644,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2288">
+        <state relative-caret-position="487">
           <caret line="104" column="52" lean-forward="false" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
-          <folding>
-            <marker date="1501753525770" expanded="true" signature="2949:2974" ph="SELECT * FRO... tbl_student" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,29 +662,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/6th/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501753890236" expanded="true" signature="177:213" ph="DELETE FROM " />
+            <marker date="1501753890236" expanded="true" signature="177:227" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/5th/Assignment/action.php">
+    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/6th/db_connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/6th/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
           <folding>
-            <marker date="1501753890247" expanded="true" signature="341:414" ph="INSERT INTO tbl_student... " />
-            <marker date="1501753890247" expanded="true" signature="341:425" ph="INSERT INTO tbl_student... " />
-            <marker date="1501753890247" expanded="true" signature="341:427" ph="INSERT INTO tbl_student... " />
-            <marker date="1501753890247" expanded="true" signature="341:439" ph="INSERT INTO tbl_student... " />
-            <marker date="1501753890247" expanded="true" signature="341:441" ph="INSERT INTO tbl_student... " />
-            <marker date="1501753890247" expanded="true" signature="341:456" ph="INSERT INTO tbl_student... " />
-            <marker date="1501753890247" expanded="true" signature="341:458" ph="INSERT INTO tbl_student... " />
-            <marker date="1501753890247" expanded="true" signature="341:471" ph="INSERT INTO tbl_student... " />
-            <marker date="1501753890247" expanded="true" signature="341:473" ph="INSERT INTO tbl_student... " />
-            <marker date="1501753890247" expanded="true" signature="341:488" ph="INSERT INTO tbl_student... " />
-            <marker date="1501753890247" expanded="true" signature="341:534" ph="INSERT INTO tbl_student... " />
+            <marker date="1502948824092" expanded="true" signature="2949:2974" ph="SELECT * FRO... tbl_student" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/6th/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1501753890247" expanded="true" signature="341:488" ph="INSERT INTO tbl_student... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/Project/stylesheet/ui.css" />
+    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/Project/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#pre#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4th Semester/PHP/Project/stylesheet/grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
