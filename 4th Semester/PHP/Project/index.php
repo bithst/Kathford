@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="MDB/css/mdb.css">
     <link rel="stylesheet" href="stylesheet/grid.css">
     <title>Alpha α</title>
@@ -11,9 +9,7 @@
 <body>
 
 <div class="container">
-    <div class="logo">alpha</div>
-    <div class="blank-header">blank</div>
-    <div class="login">login</div>
+    <?php require_once 'layout/topbar.php'?>
     <div class="slide">
             <pre style="font-family: Roboto">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis ducimus est neque quaerat quasi
@@ -22,6 +18,7 @@
             </pre>
     </div>
     <div class="sidebar">sidebar</div>
+    <?php require_once 'layout/footer.php'?>
 </div>
 
 </body>

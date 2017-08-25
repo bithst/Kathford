@@ -122,7 +122,7 @@ int main() {
 			break;
 
 			case 3:	//for scaling
-			printf("Enter the scaling vector:\n");
+			printf("Enter the scaling vector[through origin]:\n");
 			printf("sx: ");
 			scanf("%d", &sx);
 			printf("sy: ");

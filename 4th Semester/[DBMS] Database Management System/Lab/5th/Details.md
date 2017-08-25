@@ -1,5 +1,5 @@
 # Title
-Basic data constratints and joins
+Basic data constraints and joins
 
 # Objective
 To be familiar with primary and foreign key constraints and various join operation

@@ -4,14 +4,14 @@
 #include <math.h>
 #include <dos.h>
 
-void translate(float x, float y, float xc, float yc) {
+void translate(float x, float y, float xc, float yc, int color) {
 	putpixel(xc + x, yc + y, 0);
 	putpixel(xc - x, yc + y, 0);
 	putpixel(xc + x, yc - y, 0);
 	putpixel(xc - x, yc - y, 0);
 }
 
-void drawEllipse (float xc, float yc, float rx, float ry) {
+void drawEllipse (float xc, float yc, float rx, float ry, int color) {
 	float x, y, p;
 
 	x = 0;
@@ -28,7 +28,7 @@ void drawEllipse (float xc, float yc, float rx, float ry) {
 			p += (2 * pow(ry, 2) * x) - (2 * pow(rx, 2) * y) + pow(rx, 2);
 		}
 
-		translate(x, y, xc, yc);
+		translate(x, y, xc, yc, color);
 	}
 
 	p = (pow(ry, 2) * pow((x + 0.5), 2)) + (pow(rx, 2) * pow((y-1), 2)) - (pow((rx * ry), 2));
@@ -40,7 +40,7 @@ void drawEllipse (float xc, float yc, float rx, float ry) {
 			x++;
 			p -= (2 * pow(ry, 2) * x) - (2 * pow(rx, 2) * y) + pow(rx, 2);
 		}
-		translate(x, y, xc, yc);
+		translate(x, y, xc, yc, color);
 	}
 }
 
@@ -62,7 +62,7 @@ int main() {
 	scanf("%f", &ry);
 
 	clrscr();
-	drawEllipse(xc, yc, rx, ry);
+	drawEllipse(xc, yc, rx, ry, 0);
 
 	getch();
 	return 0;
