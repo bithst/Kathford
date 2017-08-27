@@ -1,14 +1,14 @@
-# Using variables in knowledge base and query
+# Use of arithmetic operations in PROLOG
 
-## Knowledge Base
-woman(sita).
-woman(gita).
-woman(rita).
-loves(ram,sita).
-loves(hari,sita).
-loves(sita,ram).
+# Task
+Define four rules namely `sum`, `diff`, `mid`, `div` that finds the sum, difference, multiplication and division of the two numbers.
 
-# Questions
-1. List the names of all women in above KB.
-2. Find an individual 'X' such that 'ram' loves 'X' and 'X' is an woman.
-3. Define a rule in above KB showing that 'X' is jealous of 'Y' if 'X' loves 'Z' and 'Y' loves 'Z'.
+Note: The number must be input dynamically and assigned to twovariables X and Y and output must be displayed as 
+sum is ...
+difference is ...
+
+Hint: to read values from keyboard, use 'read' function in PROLOG 
+   >e.g.: `read(X)`
+	
+   >to display output on screen we write function in PROLOG
+   >e.g.: `write("text"), write(X)`

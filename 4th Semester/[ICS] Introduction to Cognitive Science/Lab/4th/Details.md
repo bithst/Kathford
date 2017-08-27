@@ -1,7 +1,33 @@
-# Midpoint Ellipse Drawing Algorithm
+# Using variables in knowledge base and query
 
-## Algorithm
-1. Input `rx`, `ry` and ellipse center `(xc, yc)` and obtain first point on an ellipse centered o the origin as:  
-	`(x0, y0) = (0, ry)`
-2. In region 1:  
-	`p10 = pow(ry, 2) - (pow(rx, 2) * ry) + (1/4) * pow(rx, 2)`
+## Knowledge Base
+woman(sita).
+woman(gita).
+woman(rita).
+loves(ram,sita).
+loves(hari,sita).
+loves(sita,ram).
+
+# Questions
+1. List the names of all women in above KB.
+
+```PROLOG
+?- woman(X)
+	X=sita;
+	X=gita;
+	X=rita.
+```
+
+2. Find an individual 'X' such that 'ram' loves 'X' and 'X' is an woman.
+
+```PROLOG
+?- loves(ram, X), woman(X)
+	X=sita.
+```
+
+3. Define a rule in above KB showing that 'X' is jealous of 'Y' if 'X' loves 'Z' and 'Y' loves 'Z'.
+
+```PROLOG
+?- jelous(hari, X)
+	X=ram.
+```
