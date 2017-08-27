@@ -4,13 +4,13 @@ Nested Queries
 # Objective
 To be familiar with Nested Queries in SQL
 
-#Problems
+# Problems
 Given relational schema:
 ```
 	employee(ename, street, city)
 	works(ename, cname, salary)
 	company(cname, city)
-	mnages(ename, mname)
+	manages(ename, mname)
 ```
 1. Find the name of employees who work in more than two companies
 2. Find the name of employee having minimum payroll

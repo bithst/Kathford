@@ -1,9 +1,9 @@
-# Circle Generating Algorithm
+# Circle Drawing Algorithm
 
 ## Direct Approach
-**Algorithm:**
+### Algorithm:
 1. Start
-2. Input center (xc, yc) and radius (r)
+2. Input center `(xc, yc)` and radius `(r)`
 3. For `counter = xc - r` to `xc + r`
     1. Set `x = counter`
     2. Compute: `y = yc - sqrt(r^2 - (x - xc)^2)`
@@ -12,7 +12,7 @@
 4. End
 
 ## Trigonometric Approach
-**Algorithm:**
+### Algorithm:
 1. Start
 2. Input center (xc, yc) and radius (r)
 3. For `theta = 0` to `360`

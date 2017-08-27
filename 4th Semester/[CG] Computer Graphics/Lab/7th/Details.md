@@ -6,4 +6,4 @@
 		i. Input The translation vector (tx, ty)
 		ii. Translate the 2D object with (tx, ty)
 			`X' = X + tx` & `Y' = Y + ty`
-		iii. PLot (X', Y')
+		iii. Plot (X', Y')
