@@ -1,4 +1,4 @@
-USE lab
+USE db_lab
 
 CREATE TABLE employee(
 	ename VARCHAR(100) PRIMARY KEY,
