@@ -43,13 +43,13 @@ int main() {
 			printf("Y1: ");
 			scanf("%d", &y1);
 			printf("X2: ");
-			scanf("%d", &x3);
-			printf("Y2: ");
-			scanf("%d", &y3);
-			printf("X3: ");
 			scanf("%d", &x2);
-			printf("Y3: ");
+			printf("Y2: ");
 			scanf("%d", &y2);
+			printf("X3: ");
+			scanf("%d", &x3);
+			printf("Y3: ");
+			scanf("%d", &y3);
 		}
 		switch(choice) {	//jump to the task
 			case 1:	//For translating

@@ -1,4 +1,6 @@
 <?php
+include ..\7th\;
+
 // File name is used as class name. Each class to its own file.
 // This is just an example
 
@@ -11,7 +13,7 @@ class intro {
     }
     
     public function sum($x, $y) {
-        echo 'Sum = ' . ($x + $y) . '<br>';
+        return ($x + $y);
     }
     
     public function ret() {
@@ -64,12 +66,37 @@ class exceptionFun {
     }
 }
 
+// Traits
+trait block {
+    public function fun1() {
+
+    }
+    public function fun2() {
+
+    }
+}
+
+class traitClass {
+    use block;
+
+    public function fun3() {
+
+    }
+    public function fun4() {
+
+    }
+}
+
+// Trait class
+//$obj = new traitClass();
+//$obj->
+
 // Initializing object of class
 $obj = new intro;
 
 // Accessing function members of the class
 $obj->fun();
-$obj->sum(12, 34);
+echo 'Sum = ' . $obj->sum(12, 34) . '<br>';
 
 // Return function
 $var = $obj->ret();
@@ -84,7 +111,7 @@ echo 'Value inside static = ' . $var . '<br>';
     $obj = new exceptionFun;
     $var = $obj.test(0);
 }
-catch (new Exception($x)) {
+catch (Exception $x) {
     
 }*/
 
