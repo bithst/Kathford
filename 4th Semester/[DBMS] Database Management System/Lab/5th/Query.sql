@@ -5,6 +5,7 @@ DROP TABLE Company
 DROP TABLE Works
 DROP TABLE Manages
 
+-- 1
 CREATE TABLE Employee
 (
 	ename VARCHAR(100) PRIMARY KEY,
@@ -29,6 +30,7 @@ CREATE TABLE Manages
 	managername VARCHAR(100) REFERENCES Employee(ename)
 )
 
+-- 2
 INSERT INTO Employee VALUES ('Namkong', 'Kalopul', 'Kathmandu')
 INSERT INTO Employee VALUES ('Neha', 'Kadhaghari', 'Kathmandu')
 INSERT INTO Employee VALUES ('Ram', 'Madhyapur Thimi', 'Bhaktapur')
@@ -56,16 +58,24 @@ INSERT INTO Manages VALUES('Parish', 'Neha')
 INSERT INTO Manages VALUES('Neha', 'Srijal')
 INSERT INTO Manages VALUES('Ram', 'Neha')
 
+-- 3
 SELECT ename FROM Works	-- Show all records that work in atleast one company. Includes repeated data.
 SELECT Employee.ename FROM Employee JOIN Works ON Employee.ename = Works.ename	-- Still shows the repeated names.
 
+-- 4
 SELECT ename FROM Employee EXCEPT SELECT ename FROM Works
 SELECT Employee.ename FROM Employee LEFT OUTER JOIN Works ON Employee.ename = Works.ename WHERE Works.ename IS NULL
 
+-- 5
 UPDATE Employee SET city = 'Kathmandu' WHERE ename = 'Ram'
 UPDATE Employee SET street = 'Kalopul' WHERE ename = 'Ram'
 
+-- 10
 SELECT E.ename FROM Employee E JOIN Works W ON E.ename = W.ename JOIN Company C ON W.cname = C.cname WHERE E.city = C.city
+
+SELECT cname FROM Works WHERE salary = SELECT MIN(salary) FROM Works
+
+
 
 SELECT * FROM Employee
 SELECT * FROM Company

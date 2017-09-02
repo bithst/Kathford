@@ -1,4 +1,4 @@
-USE lab
+USE db_kathford_lab
 
 -- Creating the table
 CREATE TABLE Employee

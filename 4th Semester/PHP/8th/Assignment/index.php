@@ -23,6 +23,6 @@ class SMP {
 $obj = new SMP();
 $obj->takeValue(12, 23, 34);
 
-echo 'For P, T and R as 12, 23 and 34 respectively, SI = ' . $obj->getValue() . '<br>';
+echo 'For P, T and R as 12, 23 and 34 respectively, SI = ' . $obj->getValue(
 
 ?>
