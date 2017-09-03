@@ -1,4 +1,4 @@
-USE lab
+USE db_kathford_lab
 
 DROP TABLE Employee
 DROP TABLE Company
@@ -33,7 +33,7 @@ CREATE TABLE Manages
 -- 2
 INSERT INTO Employee VALUES ('Namkong', 'Kalopul', 'Kathmandu')
 INSERT INTO Employee VALUES ('Neha', 'Kadhaghari', 'Kathmandu')
-INSERT INTO Employee VALUES ('Ram', 'Madhyapur Thimi', 'Bhaktapur')
+INSERT INTO Employee VALUES ('Ram', 'Balkumari', 'Lalitpur')
 INSERT INTO Employee VALUES ('Parish', 'Madhyapur Thimi', 'Bhaktapur')
 INSERT INTO Employee VALUES ('Srijal', 'Sukedhara', 'Kathmandu')
 
@@ -48,7 +48,7 @@ INSERT INTO Works VALUES ('Neha', 'Kathford', 20000)
 INSERT INTO Works VALUES ('Ram', 'St. Xaviers', 20000)
 INSERT INTO Works VALUES ('Ram', 'Kathford', 10000)
 INSERT INTO Works VALUES ('Parish', 'Khowpa', 1500)
-INSERT INTO Works VALUES ('Parish', 'Small Bank Coorporation', 1000)
+INSERT INTO Works VALUES ('Parish', 'Small Bank Corporation', 1000)
 INSERT INTO Works VALUES ('Srijal', 'KIST', 15000)
 INSERT INTO Works VALUES ('Srijal', 'Kathford', 50000)
 INSERT INTO Works VALUES ('Parish', 'NCIT', 1000)
@@ -70,12 +70,20 @@ SELECT Employee.ename FROM Employee LEFT OUTER JOIN Works ON Employee.ename = Wo
 UPDATE Employee SET city = 'Kathmandu' WHERE ename = 'Ram'
 UPDATE Employee SET street = 'Kalopul' WHERE ename = 'Ram'
 
+-- 6
+DELETE FROM Works WHERE cname = 'Small Bank Corporation'
+
+-- 7
+SELECT E.ename FROM Employee E JOIN Works W ON W.ename = E.ename JOIN Company C ON C.cname = W.cname WHERE E.city = C.city  
+
+-- 8
+SELECT cname FROM Works WHERE salary = (SELECT MIN(salary) FROM Works)
+
+-- 9
+SELECT COUNT(*) AS employee, managername FROM Manages GROUP BY managername
+
 -- 10
 SELECT E.ename FROM Employee E JOIN Works W ON E.ename = W.ename JOIN Company C ON W.cname = C.cname WHERE E.city = C.city
-
-SELECT cname FROM Works WHERE salary = SELECT MIN(salary) FROM Works
-
-
 
 SELECT * FROM Employee
 SELECT * FROM Company
