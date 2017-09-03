@@ -17,4 +17,4 @@ Given relational schema:
 3. Display all record of `employee` who have `salary` greater than that of 'Rita'.
 4. Display all record of `employee` whose `city` is that of 'Rita' or 'Sita'.
 5. Find the total number of `employee` working under each `manager`.
-6. Display all the `city` which have more than 3 `companies`.
+6. Display all the `city` which have more than 1 `companies`.

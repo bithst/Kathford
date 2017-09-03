@@ -42,7 +42,7 @@ INSERT INTO Company VALUES ('NCIT', 'Lalitpur')
 INSERT INTO Company VALUES ('Khowpa', 'Bhaktapur')
 INSERT INTO Company VALUES ('St. Xaviers', 'Kathmandu')
 INSERT INTO Company VALUES ('KIST', 'Kathmandu')
-INSERT INTO Company VALUES ('Small Bank Coorporation', 'Jhapa')
+INSERT INTO Company VALUES ('Small Bank Corporation', 'Jhapa')
 
 INSERT INTO Works VALUES ('Neha', 'Kathford', 20000)
 INSERT INTO Works VALUES ('Ram', 'St. Xaviers', 20000)
@@ -83,7 +83,7 @@ SELECT cname FROM Works WHERE salary = (SELECT MIN(salary) FROM Works)
 SELECT COUNT(*) AS employee, managername FROM Manages GROUP BY managername
 
 -- 10
-SELECT E.ename FROM Employee E JOIN Works W ON E.ename = W.ename JOIN Company C ON W.cname = C.cname WHERE E.city = C.city
+SELECT W1.ename FROM Works W1 JOIN Works W2 ON W1.ename = W2.ename JOIN Works W3 ON W1.cname <> W3.cname 
 
 SELECT * FROM Employee
 SELECT * FROM Company

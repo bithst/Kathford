@@ -1,4 +1,4 @@
-USE db_lab
+USE db_kathford_lab
 
 CREATE TABLE employee(
 	ename VARCHAR(100) PRIMARY KEY,
@@ -22,11 +22,15 @@ CREATE TABLE manages(
 	mname VARCHAR(100) REFERENCES employee(ename)
 )
 
+INSERT INTO Employee VALUES ('Rita', 'Sukedhara', 'Kathmandu')
+INSERT INTO Works VALUES ('Rita', 'Kathford', 15000)
+INSERT INTO
+
 -- 1
-SELECT ename, count(*) FROM works GROUP BY ename HAVING count(*) >= 2
+SELECT ename, count(*) AS works_in FROM works GROUP BY ename HAVING count(*) >= 2
 
 -- 2
-SELECT cname FROM works WHERE salary IN (SELECT min(salary) FROM works)
+SELECT ename FROM works WHERE salary IN (SELECT min(salary) FROM works)
 
 -- 3
 SELECT ename FROM works WHERE salary >= ALL (SELECT salary FROM works WHERE ename = 'rita')
@@ -35,7 +39,7 @@ SELECT ename FROM works WHERE salary >= ALL (SELECT salary FROM works WHERE enam
 SELECT ename FROM employee WHERE city IN (SELECT city FROM employee WHERE ename = 'rita' OR ename = 'sita')
 
 -- 5
-SELECT mname, count(*) FROM manager GROUP BY mname
+SELECT managername, count(*) AS manages FROM Manages GROUP BY managername
 
 -- 6
-SELECT city, count(*) FROM company GROUP BY city HAVING count(*) >= 20
+SELECT city, count(*) AS companies FROM company GROUP BY city HAVING count(*) >= 2
