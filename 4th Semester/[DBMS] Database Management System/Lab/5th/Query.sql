@@ -83,7 +83,7 @@ SELECT cname FROM Works WHERE salary = (SELECT MIN(salary) FROM Works)
 SELECT COUNT(*) AS employee, managername FROM Manages GROUP BY managername
 
 -- 10
-SELECT W1.ename FROM Works W1 JOIN Works W2 ON W1.ename = W2.ename JOIN Works W3 ON W1.cname <> W3.cname 
+SELECT W1.ename FROM Works W1 JOIN Works W2 ON W1.ename = W2.ename JOIN Works W3 ON W1.cname <> W3.cname GROUP BY W1.ename
 
 SELECT * FROM Employee
 SELECT * FROM Company

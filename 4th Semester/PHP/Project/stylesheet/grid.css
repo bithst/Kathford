@@ -20,6 +20,7 @@
 
 .logo {
     gid-area: logo;
+    fill: red;
 }
 
 .blank-header {
