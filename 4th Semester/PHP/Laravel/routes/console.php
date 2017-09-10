@@ -16,3 +16,7 @@ use Illuminate\Foundation\Inspiring;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
+
+Artisan::command('whosyourdaddy', function() {
+   echo 'You are! Unless you\'re a girl. In which case you\'re my mommy.';
+});

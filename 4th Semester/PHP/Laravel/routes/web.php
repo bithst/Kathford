@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['namespace' => 'Front'], function(){
+   Route::any('/', 'ApplicationController@index');
+});
+
+Route::get('learn', function() {
+   /*return view('Learn.home', [
+       'name' => 'you'
+   ]);*/
+
+   $f_name = 'Ram';
+   $l_name = 'Bahadur';
+
+   return view('Learn.home', compact('f_name', 'l_name'));
+});
