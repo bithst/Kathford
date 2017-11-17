@@ -1,7 +1,7 @@
 # Title
 
 # Objective
-To be familiar with views, sotred procedure and trigger in SQL
+To be familiar with views, stored procedure and trigger in SQL
 
 # Problem
 Given Relational Schema
