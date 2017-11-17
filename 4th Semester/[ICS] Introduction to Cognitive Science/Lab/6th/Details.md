@@ -1,5 +1,5 @@
 # Title
-Write a PROLOG program to find the max of given two nmbers
+Write a PROLOG program to find the max of given two numbers
 
 Hint: Define a rule max that has 3 arguments
 	?- max(5, 3, R).
