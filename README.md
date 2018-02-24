@@ -1,5 +1,4 @@
-# Kathford Lab Work
-Contains codes from the lab of each subject (4th semester and onwards only).
+# Kathford Documents
+Contains notes, assignments, lab codes for the B.SC. CSIT course in Kathford.*
 
-Includes lab codes and projects codes and their details.
-For reports of the lab work and the projects, refer to this [link](https://bit.ly/Kathford).
+_* 4th semester contains lab codes only_
