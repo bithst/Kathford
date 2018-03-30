@@ -11,13 +11,11 @@ X = pam ;
 X = tom.
 ```
 
-
-
 ### Kowledge Base 2
-Was Jeorge I the parent of Charles I?
+Was James I the parent of Charles I?
 ```
-?- parent(jeorge_i, charles_i).
-false.
+?- parent(james_i, charles_i).
+true.
 ```
 
 Who was Charles I's parent?
