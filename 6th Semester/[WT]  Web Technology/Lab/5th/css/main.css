@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background: gray;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#title {
+  height: 100px;
+  padding: 5px;
+  margin: 5px;
+  background: pink;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+}
+
+#body {
+  padding: 5px;
+  margin: 5px;
+  background: skyblue;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+#footer {
+  height: 100px;
+  padding: 5px;
+  margin: 5px;
+  background: yellow;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+}

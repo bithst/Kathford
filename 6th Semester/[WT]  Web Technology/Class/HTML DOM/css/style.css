@@ -1,0 +1,19 @@
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  background-color: mediumaquamarine;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+button {
+  padding: 5px;
+}

@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+}
+
+.logo {
+  grid-area: logo;
+  background-color: aquamarine;
+}
+
+.title {
+  grid-area: title;
+  background-color: cadetblue;
+}
+
+.main {
+  grid-area: main;
+  background-color: darkgreen;
+}
+
+.news {
+  grid-area: news;
+  background-color: darkorchid;
+}
+
+.extra {
+  grid-area: extra;
+  background-color: cornflowerblue;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: darkorange;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr;
+  grid-template-rows: 100px 300px 300px 50px;
+  grid-template-areas:
+    "logo title title title"
+    "main main main news"
+    "main main main news"
+    "extra extra extra news"
+    "footer footer footer footer"
+}

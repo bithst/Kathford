@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Javascript demo</title>
+
+    <script>
+      //internal script
+      var name = "Praz Sameeeeeeeeeeeer";
+      
+      function fun() {
+        name = prompt("Enter you name:", name);
+        let con = confirm(name + "! Really? You sure?") 
+        if (con) {
+          alert("Hello! " + name);
+        } else {
+          alert("😂😂😂😂😂😂😂")
+        }
+      }
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <button id="test"></button>
+    <button onclick="fun();">Click for alert</button>
+    
+
+    <br>
+    <form name="faram">
+      <input type="text" name="name"> <br>
+      <button onclick="fun3();">Wow</button>
+    </form>
+	
+	<h2 id="woop">Click me</h2>
+    
+    <script src="js/index.js"></script>
+  </body>
+</html>

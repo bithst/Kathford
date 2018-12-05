@@ -1,0 +1,62 @@
+body {
+  background-color: mediumaquamarine;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(41, 41, 41);
+  font-size: 200px
+}
+
+h2 {
+  background-color: yellow;
+  color: black;
+  font-family: Operator Mono;
+  text-align: center;
+  font-style: italic;
+  border-color: rebeccapurple;
+  border-width: 2px;
+  border-style: dotted;
+}
+
+h3 {
+  background-color: deepskyblue;
+  color: black;
+}
+
+.woop {
+  color: deeppink;
+  background-color: lightpink;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.woop:hover {
+  color: aqua;
+  background-color: blue;
+  text-decoration: line-through;
+}
+
+#doom {
+  color: darkorange;
+  background-color: gold;
+  font-size: 100px;
+  text-align: center;
+  background-image: url("https://source.unsplash.com/random/1920x200");
+}
+
+#doom:hover {
+  background-image: url("https://source.unsplash.com/random/1920x201");
+}
+
+img {
+	padding: 100px;
+	margin: 100px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
